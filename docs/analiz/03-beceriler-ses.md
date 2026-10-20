@@ -1,5 +1,7 @@
 # 03 — Dört Beceri, Telaffuz ve Tarayıcı Teknolojisi
 
+> **Revizyon notu:** Kullanıcı tercihi gereği yazma/konuşma için API anahtarlı Claude modülü (L2) kaldırıldı; yerine servise bağlı olmayan "istemi kopyala + ChatGPT/Claude/Gemini aç" butonu kullanılır. Service worker/PWA katmanı da kaldırıldı (uygulama `file://` ile yerel açılır). Bağlayıcı kararlar: [00-ANA-PLAN.md §3](../00-ANA-PLAN.md).
+
 > Kol: Hören · Lesen · Schreiben · Sprechen + Aussprache
 > Hedef: Türkçe ana dilli, sıfırdan başlayan öğrenci; öğretmensiz; statik HTML/JS (backend yok); A1 → A2.
 > Tarih: Ekim 2026. Tarayıcı desteğiyle ilgili ifadeler bu tarihteki durumu yansıtır. Yine de uygulama, her özelliği çalışma anında **feature detection** ile kontrol etmeli, kendi notlarımıza güvenmemeli.

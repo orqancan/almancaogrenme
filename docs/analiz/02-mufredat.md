@@ -1,5 +1,7 @@
 # 02 — Müfredat ve İçerik Kapsamı (A1 → A2)
 
+> **Revizyon notu:** Hedef sınav değil Almanya'da yaşamak. Ünite iskeleti korunur; "Almanya'da Hayat" senaryo hattı eklendi, Anmeldung öne çekildi, Goethe simülasyonları opsiyonel. Bkz. [00-ANA-PLAN.md §4](../00-ANA-PLAN.md).
+
 > **Kol:** Müfredat ve içerik kapsamı
 > **Hedef kitle:** Ana dili Türkçe olan, Almancaya sıfırdan başlayan, öğretmensiz kendi kendine çalışan yetişkin
 > **Hedef:** CEFR A2 sonu (Goethe-Zertifikat A2 sınavını geçebilecek düzey)

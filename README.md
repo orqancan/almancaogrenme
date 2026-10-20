@@ -1,6 +1,6 @@
 # Almanca Öğrenme Sistemi (A1 → A2)
 
-Sıfırdan Almanca öğrenmek için kişisel, tarayıcı tabanlı (HTML/JS, backend'siz, çevrimdışı çalışan PWA) bir öğrenme sistemi.
+Sıfırdan Almanca öğrenmek için kişisel, tarayıcı tabanlı bir öğrenme sistemi. Amaç: Almanya'da yaşayabilecek düzeyde (A1 → A2) pratik Almanca. Bilgisayarda `index.html`'e çift tıklayarak, internetsiz çalışır (Chrome/Edge önerilir).
 
 **Durum:** Analiz ve tasarım aşaması tamamlandı, uygulama henüz başlamadı.
 

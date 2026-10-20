@@ -1,5 +1,7 @@
 # 04 — Yazılım Mimarisi, Veri Modeli ve Algoritmalar
 
+> **Revizyon notu:** Uygulama bilgisayarda `index.html`'e çift tıklanarak (`file://`) açılacak. Bu modda ES modules ve `fetch()` çalışmadığı test edildi; bu yüzden aşağıdaki **ES modules, JSON fetch, PWA/service worker ve GitHub Pages deploy** kararları geçersizdir: kod klasik `<script src>` + global ad alanıyla, içerik `.js` sarmalı dosyalarla yüklenir. Veri modeli, FSRS, cevap kontrolü ve alıştırma registry'si aynen geçerlidir. Bağlayıcı kararlar: [00-ANA-PLAN.md §3.1](../00-ANA-PLAN.md).
+
 > Kapsam: Türkçe ana dilli bir öğrencinin Almancayı sıfırdan A1→A2'ye **öğretmensiz** öğrenmesini sağlayacak, backend'siz, statik, GitHub Pages'te yayınlanan, telefona kurulabilen (PWA) bir web uygulamasının teknik tasarımı.
 > Bu doküman diğer kolların (pedagoji, müfredat, beceriler/ses, alıştırma/değerlendirme, UX/motivasyon) ihtiyaçlarını taşıyacak **motoru** tanımlar. İçerik (ne öğretileceği) burada değil; içeriğin **hangi biçimde** yazılacağı ve **nasıl işleneceği** burada.
 
