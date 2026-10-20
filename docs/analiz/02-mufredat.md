@@ -122,7 +122,7 @@
 
 ### 4.1 Okuma kılavuzu
 
-- **ID**: `G01`…`G58` — JSON'da `grammar.id` olarak kullanılır.
+- **ID**: `G01`…`G67` — JSON'da `grammar.id` olarak kullanılır.
 - **Ünite**: İlk tanıtıldığı ünite (parantez içinde genişletildiği üniteler).
 - **Önkoşul**: Bu konudan önce açılmış olması gereken gramer ID'leri.
 - **Zorluk (TR)**: Türkçe konuşan için 1 (kolay) – 5 (çok zor).
@@ -401,7 +401,7 @@ Telaffuz iki katmanlıdır: **(a) Ünite 0 — "Laute & Buchstaben"** başlangı
 | P10 | s | Ünlü önce [z] (Sonne, Sie, lesen); sonda/ünsüz önce [s]; ß/ss [s] | s/z | sieben, Saft, Haus, Straße, essen | reisen [z] – reißen [s] | Sözcük başı s'yi "s" okuma hatası (Sonne = "zone"). |
 | P11 | v, w, j, qu | v [f] (Vater, viel) – yabancı kökenli [v] (Vase, Video); w [v]; j [j]; qu [kv] | f; v; y; kv | Vogel, Wasser, ja, Juli, Quark, bequem | wir–vier [viːɐ̯]–[fiːɐ̯] | "wir/vier" minimal çifti; "ja" = "ya". |
 | P12 | ei / ai | [aɪ] | "ay" | mein, Ei, Zeit, Mai, drei, Wein | Wein – Wien | **En sık okuma hatası:** ei'yi "e‑i" okumak; ie ile karıştırmak. |
-| P13 | ie | [iː] | uzun "i" | Bier, Liebe, sieben, vier, spielen | Bier–Bein, Miete–Meite? (ei/ie ayrım tablosu) | Kural: **ikinci harfi oku** → ei = "ay" (i'nin adı gibi), ie = "i" (e'nin… değil). Popüler hafıza: "ie → i uzun". |
+| P13 | ie | [iː] | uzun "i" | Bier, Liebe, sieben, vier, spielen | Bier–Bein, Liebe–Leib, Miete–Meister (ei/ie ayrım tablosu) | Hafıza kuralı: **ikinci harfi İngilizce adıyla oku** → ei: "i" = [aɪ] "ay"; ie: "e" = [iː] "i". |
 | P14 | eu / äu | [ɔʏ] | "oy" | neu, heute, Deutsch, Häuser, Fräulein | Leute – Laute | "e‑u" diye okuma. |
 | P15 | au | [aʊ] | "av/au" | Haus, Frau, kaufen, auch | Haus – Hose | Kolay. |
 | P16 | sch | [ʃ] | ş | Schule, schön, Tisch, Mensch | | **Avantaj:** ş Türkçede var. |
