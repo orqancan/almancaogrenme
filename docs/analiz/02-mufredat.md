@@ -432,3 +432,603 @@ Telaffuz iki katmanlıdır: **(a) Ünite 0 — "Laute & Buchstaben"** başlangı
 - Telaffuz kartları SRS'e girer (`type: "sound"`).
 
 ---
+
+## 8. Tematik üniteler
+
+### 8.1 Genel bakış
+
+| # | Seviye | Başlık (DE) | Başlık (TR) | Gramer odağı (ID) | Yeni kelime | Bitiş görevi (kısa) |
+|---|---|---|---|---|---|---|
+| 0 | Ön | Laute & Buchstaben | Sesler ve harfler | G01, G08 (0–10) | 40 | Adını harf harf söyle, 10 kelimeyi doğru oku |
+| 1 | A1.1 | Hallo! Ich bin … | Merhaba! Ben … | G02, G03, G04, G05, G06 | 40 | 30 sn kendini tanıtma kaydı |
+| 2 | A1.1 | Zahlen & Kontakte | Sayılar ve iletişim bilgileri | G06, G07, G08 | 40 | Kayıt formu doldurma + telefon numarası dikte |
+| 3 | A1.1 | Meine Familie | Ailem | G09, G10, G12, G13 | 45 | Aile ağacı + 5 cümlelik tanıtım |
+| 4 | A1.1 | Essen & Trinken | Yiyecek ve içecek | G11, G14, G15 (giriş) | 55 | Kafede sipariş diyaloğu (sözlü) |
+| 5 | A1.1 | Einkaufen | Alışveriş | G15, G16, G13, G08 (100+) | 50 | Alışveriş listesi + market diyaloğu |
+| 6 | A1.1 | Mein Tag | Günüm | G18, G19, G20 | 45 | Günlük rutinini anlat (6 cümle) |
+| 7 | A1.1 | Freizeit & Hobbys | Boş zaman ve hobiler | G17, G21, G22, G23 | 45 | Bir arkadaşa buluşma teklifi mesajı |
+| 8 | A1.2 | Wohnen | Konut | G24, G25, G26 | 55 | Evini tarif et + ev ilanı anlama |
+| 9 | A1.2 | In der Stadt | Şehirde | G27, G28, G29 | 50 | Haritada yol tarifi ver/al |
+| 10 | A1.2 | Arbeit & Beruf | İş ve meslek | G30, G31, G32 | 50 | İşini/hayalindeki işi tanıt |
+| 11 | A1.2 | Termine & Zeit | Randevular ve zaman | G33, G29 (Datum), G19 | 45 | Randevu alma/iptal e-postası (30 kelime) |
+| 12 | A1.2 | Körper & Gesundheit | Vücut ve sağlık | G35, G30 (sollen), G24 (Akk) | 50 | Doktor rol oyunu |
+| 13 | A1.2 | Kleidung & Wetter | Giyim ve hava | G34, G36, G37 | 50 | Hafta sonunu anlat (Perfekt) + mağazada kıyafet al |
+| 14 | A1.2 | Unterwegs (A1-Abschluss) | Yolda (A1 kapanış) | G38, G39, G40 + tekrar | 40 | **Start Deutsch 1 simülasyonu** |
+| 15 | A2.1 | Erinnerungen | Anılar / çocukluk | G41, G42 | 45 | Çocukluğunu anlat (90 sn) |
+| 16 | A2.1 | Urlaub & Reisen | Tatil ve seyahat | G43, G44 | 55 | Tatil kartpostalı (40 kelime) |
+| 17 | A2.1 | Nachbarn & Zusammenleben | Komşular ve birlikte yaşam | G45, G46 | 45 | Komşuya şikâyet/rica notu |
+| 18 | A2.1 | Restaurant & Einladung | Restoran ve davet | G47, G48 | 50 | Restoranda masa ayırt, sipariş ver, şikâyet et |
+| 19 | A2.1 | Beim Arzt & in der Apotheke | Doktorda ve eczanede | G49, G50 | 55 | Telefonla randevu + belirti anlatımı |
+| 20 | A2.1 | Geschenke & Mode | Hediyeler ve moda | G51, G52, G53 | 50 | İki ürünü karşılaştırıp hediye seç |
+| 21 | A2.1 | Medien & Kommunikation | Medya ve iletişim | G54, G55 | 50 | Medya alışkanlıklarını anlat + mini anket |
+| 22 | A2.2 | Arbeitswelt & Bewerbung | İş hayatı ve başvuru | G56, G57 | 55 | Tablo CV + kısa başvuru e-postası |
+| 23 | A2.2 | Ämter & Dienstleistungen | Resmi daireler ve hizmetler | G58, G59 (R) | 55 | Bürgeramt'ta adres kaydı rol oyunu + form |
+| 24 | A2.2 | Feste & Feiern | Bayramlar ve kutlamalar | G60, G61, G53 (Dat) | 45 | Davet + cevap e-postası; parti planlama (Sprechen T3) |
+| 25 | A2.2 | Beziehungen & Gefühle | İlişkiler ve duygular | G62, G55 | 45 | Bir arkadaşa tavsiye mektubu |
+| 26 | A2.2 | Natur, Wetter & Umwelt | Doğa, hava ve çevre | G63, G64 | 45 | Hava raporu anlama + çevre alışkanlıkları sunumu |
+| 27 | A2.2 | Lernen & Zukunft | Öğrenme ve gelecek planları | G65, G66, G46 (trotzdem) | 40 | Gelecek planlarını anlat (Sprechen T2) |
+| 28 | A2.2 | Mein Leben in D-A-CH (A2-Abschluss) | Almanca konuşulan ülkelerde hayatım | G67 (R) + genel tekrar | 15 | **Goethe-Zertifikat A2 simülasyonu** |
+
+### 8.2 Ünite detayları
+
+> Format: **İletişimsel hedefler** · **Gramer** · **Kelime alanı (~sayı)** · **Örnek diyalog** · **Bitiş görevi**. Kültür notu (Landeskunde) her ünitede kısa bir kutu olarak verilir.
+
+#### Ünite 0 — Laute & Buchstaben *(Sesler ve harfler)*
+- **Hedefler:** Selamlaşma/vedalaşma; alfabeyi tanıma; adını harf harf söyleme; 0–10 sayıları.
+- **Gramer:** G01, G08 (0–10). Bkz. §7.2.
+- **Kelime (~40):** selamlar, *danke/bitte/ja/nein*, 0–10, sınıf dili (*Hören Sie! Lesen Sie! Sprechen Sie nach!*).
+- **Diyalog:** Bir dil kursunda kayıt masası — "Wie ist Ihr Name? — Yilmaz. — Wie bitte? — Y‑I‑L‑M‑A‑Z."
+- **Bitiş görevi:** Kendi adını ve şehrini harf harf kaydet; 10 kelimelik telaffuz testi (≥%80).
+- **Landeskunde:** D‑A‑CH ülkeleri, Almancanın konuşulduğu yerler, Grüß Gott / Servus / Grüezi.
+
+#### Ünite 1 — Hallo! Ich bin … *(Merhaba! Ben …)*
+- **Hedefler:** Kendini tanıtma (isim, köken, ikamet, diller); başkasına soru sorma; du/Sie ayrımı; anlamadığını söyleme.
+- **Gramer:** G02 kişi zamirleri, G03 *sein*, G04 V2, G05 W‑Fragen (wer/wie/woher/wo), G06 Präsens (heißen, kommen, wohnen, sprechen-ich/du).
+- **Kelime (~40):** ülkeler/diller (*die Türkei, Deutschland, Türkisch, Deutsch, Englisch*), şehirler, *Name, Vorname, Land, Sprache*, kurs dili.
+- **Diyalog:** Entegrasyon kursunda ilk gün — "Hallo, ich bin Elif. Und wer bist du? — Ich heiße Jonas. Woher kommst du? — Aus der Türkei, aus Izmir. Und du?"
+- **Bitiş görevi:** 30 sn sesli tanıtım (Name, Land, Wohnort, Sprachen) — kontrol listesiyle öz değerlendirme; Goethe A1 Sprechen Teil 1 kartları (Name? Alter? Land? Wohnort? Sprachen? Beruf? Hobby?) ile ilk deneme.
+
+#### Ünite 2 — Zahlen & Kontakte *(Sayılar ve iletişim bilgileri)*
+- **Hedefler:** Sayılar 0–100; yaş, telefon, adres, e‑posta söyleme/anlama; basit form doldurma.
+- **Gramer:** G06 (düzenli fiiller tüm kişiler), G07 Ja/Nein‑Fragen, G08 sayılar, G23 *und/aber*.
+- **Kelime (~40):** sayılar, *Adresse, Straße, Hausnummer, Postleitzahl, Telefonnummer, Handy, E‑Mail, @ (at), Formular, Geburtsdatum, ledig/verheiratet*.
+- **Diyalog:** Spor salonuna üyelik — "Wie ist Ihre Adresse? — Lindenstraße 23, 50667 Köln. — Und Ihre Handynummer?"
+- **Bitiş görevi:** Goethe A1 Schreiben Teil 1 tipi form (5 bilgi) + 5 telefon numarası dikte.
+
+#### Ünite 3 — Meine Familie *(Ailem)*
+- **Hedefler:** Aile üyelerini tanıtma; medeni durum; yaş; fotoğraf hakkında konuşma.
+- **Gramer:** G09 *haben*, G10 der/die/das, G12 mein/dein/Ihr (Nom), G13 Plural (giriş: Brüder, Schwestern, Kinder, Eltern).
+- **Kelime (~45):** *der Vater, die Mutter, die Eltern (Pl.), der Bruder, die Schwester, die Geschwister, der Sohn, die Tochter, der Opa, die Oma, der Mann, die Frau, das Kind, der Freund, verheiratet, geschieden*…
+- **Diyalog:** Fotoğrafa bakarak — "Wer ist das? — Das ist meine Schwester. Sie heißt Zeynep und wohnt in Ankara. — Hast du auch Brüder? — Ja, ich habe zwei Brüder."
+- **Bitiş görevi:** Görsel aile ağacı oluştur, 5 cümlelik metin yaz + kaydet.
+- **Landeskunde:** Patchwork‑Familie; Almanya'da aile büyüklüğü.
+
+#### Ünite 4 — Essen & Trinken *(Yiyecek ve içecek)*
+- **Hedefler:** Yiyecek/içecek adları; sevdiği/sevmediği yiyecekler; kafede sipariş ve ödeme; kahvaltı alışkanlıkları.
+- **Gramer:** G11 ein/eine, G10 tekrar, G14 *möchte / hätte gern*, G15 Akkusativ giriş (*einen Kaffee, den Salat*).
+- **Kelime (~55):** *der Kaffee, der Tee, das Wasser, der Saft, die Milch, das Brot, das Brötchen, der Käse, die Wurst, das Ei, der Apfel, die Banane, der Kuchen, das Frühstück, die Speisekarte, die Rechnung, lecker, süß, warm, kalt*…
+- **Diyalog:** Kafede — "Was möchten Sie? — Ich hätte gern einen Kaffee und ein Stück Kuchen. — Mit Milch? — Ja, bitte. … — Zahlen, bitte! — Zusammen oder getrennt?"
+- **Bitiş görevi:** Sesli sipariş rol oyunu (garsonun repliklerine sesle cevap) + menü okuma görevi.
+- **Landeskunde:** Kaffee und Kuchen, Brötchen kültürü, bahşiş (%5–10, "Stimmt so").
+- **Tam JSON örneği:** §11.
+
+#### Ünite 5 — Einkaufen *(Alışveriş)*
+- **Hedefler:** Markette ürün sorma/fiyat; miktar ve ambalaj; alışveriş listesi; ödeme yöntemleri.
+- **Gramer:** G15 Akkusativ (tam: Nom/Akk tablosu), G16 *nicht/kein*, G13 Plural (pekiştirme), G08 100–1000 + Preise (2,99 €).
+- **Kelime (~50):** *das Kilo, das Gramm, der Liter, die Flasche, die Packung, die Dose, das Stück, der Supermarkt, die Kasse, der Euro, der Cent, billig, teuer, das Angebot, das Gemüse, das Obst, die Tomate, die Kartoffel, das Fleisch, der Fisch, der Reis, das Öl, der Zucker*…
+- **Diyalog:** Pazarda — "Was kostet ein Kilo Tomaten? — 2,49 Euro. — Dann nehme ich zwei Kilo. Haben Sie auch Paprika? — Nein, heute leider keine Paprika."
+- **Bitiş görevi:** Tarif için alışveriş listesi oluştur + market kasası dinleme (fiyat yazma).
+- **Landeskunde:** Pfand sistemi, pazar günü kapalı dükkanlar, Bio.
+
+#### Ünite 6 — Mein Tag *(Günüm)*
+- **Hedefler:** Saat sorma/söyleme (resmî/gayriresmî); günlük rutin; haftanın günleri ve gün bölümleri; açılış saatleri.
+- **Gramer:** G18 trennbare Verben + Satzklammer, G19 um/am/von…bis, G20 Uhrzeit, G04 Inversion (*Um 7 Uhr stehe ich auf*).
+- **Kelime (~45):** *aufstehen, frühstücken, anfangen, arbeiten, einkaufen, kochen, fernsehen, schlafen, der Morgen, der Vormittag, der Mittag, der Nachmittag, der Abend, die Nacht, Montag…Sonntag, das Wochenende, früh, spät, immer, oft, manchmal, nie*.
+- **Diyalog:** İki iş arkadaşı — "Wann stehst du auf? — Um halb sechs! — Was? So früh? — Ja, die Arbeit fängt um sieben an."
+- **Bitiş görevi:** Bir günlük rutin metni (6 cümle, ≥3 trennbares Verb) + saat dinleme testi (10 madde).
+
+#### Ünite 7 — Freizeit & Hobbys *(Boş zaman ve hobiler)*
+- **Hedefler:** Hobiler hakkında konuşma; yapabildiklerini/yapamadıklarını söyleme; buluşma teklif etme, kabul/ret.
+- **Gramer:** G17 kök ünlü değişimi (lesen, sehen, fahren, essen, treffen), G21 *können*, G22 *gern/lieber/am liebsten*, G23 *aber/oder*.
+- **Kelime (~45):** *schwimmen, tanzen, singen, lesen, Rad fahren, Fußball spielen, wandern, fotografieren, das Kino, das Konzert, der Park, das Schwimmbad, die Musik, das Spiel, der Verein, Zeit haben, Lust haben*.
+- **Diyalog:** Telefonda — "Hast du am Samstag Zeit? Wir können ins Kino gehen. — Samstag kann ich leider nicht. Aber Sonntag geht."
+- **Bitiş görevi:** Arkadaşa WhatsApp mesajı: teklif + yer + saat (Goethe A1 Schreiben Teil 2'ye hazırlık).
+- **Kontrol Noktası 1 (A1.1 Zwischentest)** — bkz. §10.
+
+#### Ünite 8 — Wohnen *(Konut)*
+- **Hedefler:** Evi/odaları tarif etme; mobilya; ev ilanı okuma; ev sahibine/arkadaşa ev hakkında yazma.
+- **Gramer:** G24 Possessivartikel tümü, G25 *es gibt*, G26 Adjektiv prädikativ, Plural tekrar.
+- **Kelime (~55):** *die Wohnung, das Haus, das Zimmer, die Küche, das Bad, das Schlafzimmer, das Wohnzimmer, der Balkon, der Garten, der Tisch, der Stuhl, das Bett, der Schrank, das Sofa, die Lampe, die Miete, die Nebenkosten, der Quadratmeter, hell, dunkel, groß, klein, ruhig, laut, modern*…
+- **Diyalog:** Ev bakma — "Wie viele Zimmer hat die Wohnung? — Drei Zimmer, Küche, Bad. Es gibt auch einen Balkon. — Und wie hoch ist die Miete?"
+- **Bitiş görevi:** Bir ev ilanını analiz et (Lesen) + kendi evini anlat (Sprechen 60 sn).
+- **Landeskunde:** WG, Kaltmiete/Warmmiete, Mülltrennung.
+
+#### Ünite 9 — In der Stadt *(Şehirde)*
+- **Hedefler:** Şehirdeki yerler; yol sorma/tarif etme; ulaşım araçları; kibar rica (Imperativ Sie).
+- **Gramer:** G27 Imperativ Sie, G28 Dativ giriş (*mit dem Bus, zum Bahnhof, zur Post, bei der Bank*), G29 Ordnungszahlen (*die zweite Straße links*).
+- **Kelime (~50):** *der Bahnhof, die Post, die Bank, die Apotheke, das Krankenhaus, die Haltestelle, der Bus, die U‑Bahn, die Straßenbahn, das Auto, das Fahrrad, zu Fuß, geradeaus, links, rechts, die Kreuzung, die Ampel, gegenüber, in der Nähe*.
+- **Diyalog:** Sokakta — "Entschuldigung, wie komme ich zum Bahnhof? — Gehen Sie hier geradeaus und dann die zweite Straße links. — Ist das weit? — Nein, nur fünf Minuten zu Fuß."
+- **Bitiş görevi:** İnteraktif harita: sesli tarifi dinle → rotayı çiz; yazılı tarif ver.
+
+#### Ünite 10 — Arbeit & Beruf *(İş ve meslek)*
+- **Hedefler:** Meslekler; iş yeri ve görevler; çalışma saatleri; geçmişte nerede çalıştığını söyleme (war/hatte); zorunluluk/izin.
+- **Gramer:** G30 *müssen/wollen/dürfen*, G31 *war/hatte*, G32 Beruf maskulin/feminin.
+- **Kelime (~50):** *der Arzt/die Ärztin, der Lehrer/die Lehrerin, der Verkäufer, der Koch, der Ingenieur, der Kellner, die Krankenschwester/Pflegekraft, der Mechaniker, die Firma, das Büro, der Kollege, der Chef, die Arbeitszeit, Vollzeit, Teilzeit, verdienen, arbeitslos*.
+- **Diyalog:** Partide — "Was machst du beruflich? — Ich bin Krankenpfleger. Ich muss oft nachts arbeiten. — Und vorher? — Vorher war ich in der Türkei Lehrer."
+- **Bitiş görevi:** "Mein Beruf" kısa sunum (kayıt) + iş ilanı okuma.
+
+#### Ünite 11 — Termine & Zeit *(Randevular ve zaman)*
+- **Hedefler:** Ay, tarih, mevsim; randevu alma, erteleme, iptal; geçmiş olayları basitçe anlatma (Perfekt haben).
+- **Gramer:** G33 Perfekt mit *haben* (düzenli + sık düzensiz: *gemacht, gekauft, gearbeitet, gegessen, getrunken*), G29 Datum (*am dritten März*), G19 im/am/um tekrar.
+- **Kelime (~45):** aylar, mevsimler, *der Termin, der Kalender, das Datum, gestern, heute, morgen, letzte Woche, nächste Woche, absagen, verschieben, vereinbaren, pünktlich, zu spät*.
+- **Diyalog:** Kuaföre telefon — "Ich möchte einen Termin machen. — Geht es am Donnerstag um 10 Uhr? — Nein, da muss ich arbeiten. Geht es auch am Freitag?"
+- **Bitiş görevi:** Goethe A1 Schreiben Teil 2: Randevu iptali e‑postası (~30 kelime, 3 içerik noktası).
+
+#### Ünite 12 — Körper & Gesundheit *(Vücut ve sağlık)*
+- **Hedefler:** Vücut bölümleri; şikâyet bildirme; doktor tavsiyesini anlama; arkadaşa tavsiye verme.
+- **Gramer:** G35 Imperativ du/ihr, G30 *sollen*, G24 Possessiv Akkusativ (*Ich habe meinen Termin vergessen*), Dativ chunk *Mir ist schlecht / Mir tut … weh*.
+- **Kelime (~50):** *der Kopf, der Bauch, der Rücken, der Arm, das Bein, der Fuß, die Hand, das Auge, das Ohr, der Hals, der Zahn, die Schmerzen, das Fieber, der Husten, die Erkältung, krank, gesund, das Rezept, die Tablette, die Praxis, die Versichertenkarte*.
+- **Diyalog:** Muayenehanede — "Was fehlt Ihnen? — Ich habe Halsschmerzen und Fieber. — Seit wann? — Seit zwei Tagen. — Nehmen Sie diese Tabletten und bleiben Sie im Bett."
+- **Bitiş görevi:** Doktor rol oyunu (sesli) + işe hastalık bildirme mesajı.
+- **Landeskunde:** Hausarzt sistemi, Krankmeldung (AU), Notruf 112.
+
+#### Ünite 13 — Kleidung & Wetter *(Giyim ve hava)*
+- **Hedefler:** Kıyafetler, renkler, beden; mağazada deneme/satın alma; hava durumu; hafta sonunu anlatma (Perfekt sein).
+- **Gramer:** G34 Perfekt mit *sein* + düzensiz Partizipien, G36 Personalpronomen Akk (*Ich nehme ihn*), G37 *welch‑/dies‑*.
+- **Kelime (~50):** *die Hose, das Hemd, die Bluse, das Kleid, der Rock, die Jacke, der Mantel, der Pullover, die Schuhe, die Größe, die Farbe, rot, blau, grün…, passen, anprobieren, die Sonne, der Regen, der Schnee, der Wind, warm, kalt, es regnet*.
+- **Diyalog:** Mağazada — "Kann ich die Jacke anprobieren? — Welche? — Diese hier, in Größe M. … — Und? Passt sie? — Ja, ich nehme sie."
+- **Bitiş görevi:** "Mein Wochenende" — Perfekt ile 6 cümle (yazılı + sesli).
+
+#### Ünite 14 — Unterwegs *(Yolda — A1 kapanış)*
+- **Hedefler:** Bilet alma; tren/otobüs bilgisi; anonsları anlama; konum belirtme; gerekçe (denn).
+- **Gramer:** G38 Dativ zamirler (*Können Sie mir helfen? Das gefällt mir*), G39 Wechselpräpositionen (wo? + Dativ), G40 *denn* + **genel A1 tekrarı**.
+- **Kelime (~40):** *der Zug, das Gleis, die Fahrkarte, die Abfahrt, die Ankunft, umsteigen, die Verspätung, der Flughafen, der Koffer, die Reise, das Hotel, das Zimmer (reservieren)*.
+- **Diyalog:** Gişede — "Eine Fahrkarte nach Hamburg, bitte. — Einfach oder hin und zurück? — Hin und zurück. Muss ich umsteigen? — Ja, in Hannover."
+- **Bitiş görevi:** **Kontrol Noktası 2 + Start Deutsch 1 tam simülasyonu.**
+
+#### Ünite 15 — Erinnerungen *(Anılar / çocukluk)*
+- **Hedefler:** Çocukluk ve okul anıları; geçmişte yapmak zorunda olduklarını/istediklerini anlatma; gerekçe sunma.
+- **Gramer:** G41 Präteritum Modalverben + Perfekt tekrarı, G42 *weil*.
+- **Kelime (~45):** *die Kindheit, die Schule, der Lehrer, das Zeugnis, die Note, das Spielzeug, früher, damals, als Kind, streng, lustig, sich erinnern* (chunk), *umziehen*.
+- **Diyalog:** Eski fotoğraflar — "Wo hast du als Kind gewohnt? — In einem Dorf bei Konya. Ich musste jeden Tag zu Fuß zur Schule gehen, weil es keinen Bus gab."
+- **Bitiş görevi:** 90 sn "Meine Kindheit" anlatımı + blog yazısı okuma (Richtig/Falsch).
+
+#### Ünite 16 — Urlaub & Reisen *(Tatil ve seyahat)*
+- **Hedefler:** Tatil planlama ve anlatma; konaklama rezervasyonu; nereye/nerede gittiğini söyleme.
+- **Gramer:** G43 Wechselpräpositionen tam (wohin/wo), *legen/liegen, stellen/stehen, hängen*; G44 *nach/in/an/zu* ile yer.
+- **Kelime (~55):** *der Urlaub, das Meer, der Strand, die Berge, der See, die Insel, das Ausland, die Unterkunft, die Ferienwohnung, die Jugendherberge, das Doppelzimmer, die Halbpension, buchen, packen, der Pass, das Visum, die Sehenswürdigkeit*.
+- **Diyalog:** "Wohin fährst du im Sommer? — Ans Meer, nach Antalya. Und du? — Ich fahre in die Berge, in die Schweiz."
+- **Bitiş görevi:** Goethe A2 Schreiben Teil 1 tipi tatil kartpostalı (~40 kelime) + otel e‑postası okuma.
+
+#### Ünite 17 — Nachbarn & Zusammenleben *(Komşular ve birlikte yaşam)*
+- **Hedefler:** Komşuluk ilişkileri, ev kuralları (Hausordnung); fikir bildirme; rica/şikâyet.
+- **Gramer:** G45 *dass* + Meinung, G46 *deshalb*, G42 *weil* pekiştirme.
+- **Kelime (~45):** *der Nachbar, die Hausordnung, der Hausmeister, die Ruhezeit, der Lärm, der Müll, die Mülltonne, das Treppenhaus, leihen, stören, sich beschweren* (chunk), *rücksichtsvoll, freundlich*.
+- **Diyalog:** "Entschuldigung, ich finde, dass die Musik ein bisschen zu laut ist. Mein Kind schläft schon. — Oh, tut mir leid! Ich mache sie leiser."
+- **Bitiş görevi:** Komşuya not yazma (rica + gerekçe) + Hausordnung okuma.
+
+#### Ünite 18 — Restaurant & Einladung *(Restoran ve davet)*
+- **Hedefler:** Masa ayırtma; menü okuma; sipariş, şikâyet (reklamieren); davete gitme, yemek tarif etme.
+- **Gramer:** G47 Adjektivdeklination (unbestimmt/Nullartikel, Nom/Akk), G48 Konjunktiv II nezaket (*Könnten Sie…? Ich hätte gern… Ich würde gern…*).
+- **Kelime (~50):** *die Vorspeise, das Hauptgericht, die Nachspeise, die Beilage, vegetarisch, scharf, gebraten, gekocht, das Besteck, die Gabel, das Messer, der Löffel, reservieren, bestellen, die Gastgeberin, mitbringen*.
+- **Diyalog:** "Ich hätte gern einen großen Salat und ein kleines Wasser. … Entschuldigung, die Suppe ist leider kalt. Könnten Sie sie bitte noch einmal warm machen?"
+- **Bitiş görevi:** 3 aşamalı sesli rol oyunu (telefonla rezervasyon → sipariş → şikâyet).
+
+#### Ünite 19 — Beim Arzt & in der Apotheke *(Doktorda ve eczanede)*
+- **Hedefler:** Belirtileri ayrıntılı tarif; telefonla randevu; ilaç talimatlarını anlama; sağlıklı yaşam koşulları.
+- **Gramer:** G49 reflexive Verben (*sich fühlen, sich erkälten, sich ausruhen*), G50 *wenn*.
+- **Kelime (~55):** *die Allergie, die Verletzung, der Unfall, die Grippe, die Salbe, die Tropfen, der Beipackzettel, die Nebenwirkung, die Überweisung, der Facharzt, die Notaufnahme, sich verletzen, husten, niesen, schwindlig*.
+- **Diyalog:** "Wenn Sie Fieber bekommen, nehmen Sie eine Tablette. — Muss ich die Tabletten vor oder nach dem Essen nehmen? — Nach dem Essen, dreimal täglich."
+- **Bitiş görevi:** Muayenehane telesekreter mesajını anla + randevu telefon konuşması kaydı.
+
+#### Ünite 20 — Geschenke & Mode *(Hediyeler ve moda)*
+- **Hedefler:** Hediye seçme, tavsiye etme; ürünleri karşılaştırma; beğeni bildirme.
+- **Gramer:** G51 Dat+Akk fiiller (*schenken, geben, empfehlen*), G52 Komparativ/Superlativ, G53 Adjektivdekl. bestimmter Artikel.
+- **Kelime (~50):** *das Geschenk, der Gutschein, der Schmuck, die Kette, die Uhr, das Parfüm, die Tasche, der Stil, modern, altmodisch, bequem, elegant, praktisch, günstig, gefallen, passen, stehen*.
+- **Diyalog:** "Was schenkst du deiner Mutter? — Vielleicht die rote Tasche. — Die schwarze ist aber eleganter und billiger. — Stimmt, die nehme ich."
+- **Bitiş görevi:** İki ürün ilanını karşılaştırıp seçimini gerekçelendir (yazılı).
+
+#### Ünite 21 — Medien & Kommunikation *(Medya ve iletişim)*
+- **Hedefler:** Medya alışkanlıkları; telefon/internet sorunları; kibar dolaylı soru; ilgi alanlarını ifade etme.
+- **Gramer:** G54 indirekte Fragen (ob/W‑), G55 Verben mit Präpositionen (*sich interessieren für, warten auf, sprechen über*).
+- **Kelime (~50):** *das Handy, der Computer, das Internet, die App, die Nachricht, das Passwort, herunterladen, speichern, löschen, drucken, die Zeitung, die Sendung, die Werbung, online, der Vertrag*.
+- **Diyalog:** Mağazada — "Können Sie mir sagen, ob der Vertrag monatlich kündbar ist? — Ja, das ist er."
+- **Bitiş görevi:** Mini anket sonuçları grafiğini oku + kendi medya alışkanlıklarını yaz.
+- **Kontrol Noktası 3 (A2.1 Zwischentest).**
+
+#### Ünite 22 — Arbeitswelt & Bewerbung *(İş hayatı ve başvuru)*
+- **Hedefler:** İş ilanı okuma; başvuru, CV; iş görüşmesinde kendini anlatma; iş yerinde dilek/tavsiye.
+- **Gramer:** G56 Konjunktiv II (Wunsch, Ratschlag: *Du solltest…*), G57 Infinitiv mit *zu*.
+- **Kelime (~55):** *die Stelle, die Stellenanzeige, die Bewerbung, der Lebenslauf, das Vorstellungsgespräch, die Erfahrung, die Ausbildung, das Praktikum, das Gehalt, der Arbeitsvertrag, die Probezeit, kündigen, sich bewerben, die Kenntnisse, zuverlässig, flexibel*.
+- **Diyalog:** Görüşmede — "Warum möchten Sie bei uns arbeiten? — Weil ich gern im Team arbeite und Erfahrung in der Gastronomie habe."
+- **Bitiş görevi:** Tablo CV + kısa başvuru e‑postası (şablon destekli).
+
+#### Ünite 23 — Ämter & Dienstleistungen *(Resmi daireler ve hizmetler)*
+- **Hedefler:** Bürgeramt'ta adres kaydı (Anmeldung); bankada hesap açma; postanede paket; formları ve talimatları anlama.
+- **Gramer:** G58 seit/vor/nach/ab (+Dat), G59 Passiv Präsens (tanıma).
+- **Kelime (~55 + 30 pasif):** *das Amt, das Bürgeramt, die Ausländerbehörde, die Anmeldung, der Antrag, das Formular, der Ausweis, der Reisepass, die Aufenthaltserlaubnis, die Unterschrift, unterschreiben, ausfüllen, das Konto, die Überweisung, die Gebühr, das Paket, der Brief, die Briefmarke, die Wartenummer*.
+- **Diyalog:** "Ich möchte mich anmelden. — Haben Sie einen Termin? — Ja, um 9:30. — Gut. Ich brauche Ihren Pass und die Wohnungsgeberbestätigung."
+- **Bitiş görevi:** Anmeldung formunu doldur + gişe rol oyunu (sesli).
+- **Landeskunde:** Termin kültürü, Wohnungsgeberbestätigung, Steuer‑ID.
+
+#### Ünite 24 — Feste & Feiern *(Bayramlar ve kutlamalar)*
+- **Hedefler:** Bayramlar (Weihnachten, Ostern, Silvester, Ramazan/Kurban Bayramı karşılaştırma); davet etme/kabul/ret; tebrik; ortak parti planlama.
+- **Gramer:** G60 Genitiv‑s / von, G61 *als* vs *wenn*, G53 Dativ sıfat tekrar.
+- **Kelime (~45):** *das Fest, die Feier, der Geburtstag, die Hochzeit, Weihnachten, Ostern, Silvester, das Neujahr, der Gast, die Einladung, einladen, feiern, gratulieren, schmücken, die Kerze, das Feuerwerk*.
+- **Diyalog:** "Als ich das erste Mal Weihnachten in Deutschland gefeiert habe, war alles neu für mich."
+- **Bitiş görevi:** Goethe A2 Sprechen Teil 3: iki takvimle parti/ziyaret planlama (sesli; partner replikleri önceden kaydedilmiş) + davet e‑postasına cevap (Schreiben Teil 2).
+
+#### Ünite 25 — Beziehungen & Gefühle *(İlişkiler ve duygular)*
+- **Hedefler:** Arkadaşlık, aşk, aile ilişkileri; duyguları ifade etme; tavsiye isteme/verme.
+- **Gramer:** G62 reflexive Verben mit Präposition (*sich ärgern über, sich verlieben in, sich streiten mit*), G55 da(r)/wo(r) tanıma.
+- **Kelime (~45):** *die Beziehung, die Freundschaft, die Liebe, der Streit, sich trennen, heiraten, das Gefühl, glücklich, traurig, wütend, eifersüchtig, enttäuscht, nervös, Angst haben, vertrauen*.
+- **Diyalog:** "Worüber ärgerst du dich? — Über meinen Mitbewohner. Er räumt nie auf!"
+- **Bitiş görevi:** Dergi tavsiye köşesi mektubunu oku + cevap yaz (~50 kelime).
+
+#### Ünite 26 — Natur, Wetter & Umwelt *(Doğa, hava ve çevre)*
+- **Hedefler:** Hava tahminini anlama; mevsim ve iklim karşılaştırma; çevre alışkanlıkları; kurallar (man darf/muss).
+- **Gramer:** G63 *man, jemand, niemand, etwas, nichts*, G64 Futur I (*Morgen wird es regnen*).
+- **Kelime (~45):** *das Klima, die Temperatur, der Grad, das Gewitter, der Nebel, bewölkt, die Umwelt, der Müll, recyceln, Energie sparen, die Natur, der Wald, das Tier, die Pflanze, schützen*.
+- **Diyalog:** Radyo — "Morgen wird es im Norden bewölkt, im Süden scheint die Sonne bei 25 Grad."
+- **Bitiş görevi:** Radyo hava durumu (Goethe A2 Hören Teil 1 tipi) + 60 sn "Was tue ich für die Umwelt?".
+
+#### Ünite 27 — Lernen & Zukunft *(Öğrenme ve gelecek planları)*
+- **Hedefler:** Okul sistemi, kurslar, dil öğrenme; gelecek planları ve hayaller; karşıtlık bildirme.
+- **Gramer:** G65 *werden* (ana fiil), G66 *sondern / entweder…oder*, G46 *trotzdem*.
+- **Kelime (~40):** *die Ausbildung, das Studium, die Universität, die Prüfung, das Zertifikat, der Kurs, die Weiterbildung, der Abschluss, das Ziel, der Plan, der Traum, bestehen, durchfallen, sich vorbereiten*.
+- **Diyalog:** "Was willst du nach dem Kurs machen? — Ich werde eine Ausbildung als Erzieherin machen. Das ist nicht leicht, trotzdem probiere ich es."
+- **Bitiş görevi:** Goethe A2 Sprechen Teil 2 kartı ("Pläne für die Zukunft") ile 2 dk monolog.
+
+#### Ünite 28 — Mein Leben in D‑A‑CH *(A2 kapanış)*
+- **Hedefler:** Kendi hayat hikâyesini bağlantılı anlatma; tüm A2 becerilerini birleştirme; sınav stratejileri.
+- **Gramer:** G67 Relativsatz (tanıma) + seçmeli tekrar (sistem zayıf konuları SRS verisinden seçer).
+- **Kelime (~15):** sınav dili (*ankreuzen, zuordnen, die Aufgabe, der Antwortbogen*).
+- **Diyalog:** Röportaj — "Seit wann leben Sie in Deutschland? Was war am Anfang schwierig?"
+- **Bitiş görevi:** **Kontrol Noktası 4 + Goethe-Zertifikat A2 tam simülasyonu.**
+
+---
+
+## 9. Ünite içi ders yapısı
+
+### 9.1 Standart ünite iskeleti (6 ders + tekrar + test)
+
+| Sıra | Ders | Süre | Odak | Tipik içerik / alıştırma tipleri |
+|---|---|---|---|---|
+| L1 | **Wörter** — Kelime girişi | 20–25 dk | Kelime (ilk 50–60%) | Görsel + ses + artikel rengi; dinle‑tekrar; artikel seçme; eşleştirme; ilk SRS kartları |
+| L2 | **Dialog** — Hören & Verstehen | 20–25 dk | Dinleme, chunk | Ünite diyaloğu (yavaş/normal hız); anlama soruları; boşluklu transkript; chunk'ları işaretleme (*noticing*); gölgeleme (shadowing) |
+| L3 | **Grammatik 1** | 25 dk | Ana gramer konusu | Diyalogdan örnek → keşif sorusu → kural kartı (TR açıklama + tablo + `trNote`) → kontrollü alıştırma (seçme, boşluk, dönüşüm, sıralama) |
+| L4 | **Grammatik 2 + Wörter 2** | 25 dk | 2. gramer konusu / genişletme + kalan kelimeler | Aynı döngü; kelimenin geri kalanı; karışık alıştırma |
+| L5 | **Lesen & Schreiben** | 25–30 dk | Okuma + yazma | Otantik‑benzeri metin (ilan, e‑posta, menü, form); Goethe tipi görev; yönlendirmeli yazma (şablon → serbest) + model cevap + öz değerlendirme kontrol listesi |
+| L6 | **Sprechen & Aussprache** | 20–25 dk | Konuşma + telaffuz | Aussprache-Ecke (10 dk, §7); rol oyunu (kayıt); sesli soru-cevap; bitiş görevine hazırlık |
+| R | **Wiederholung** | 15–20 dk | Karma tekrar | Ünite + önceki 2 ünitenin zayıf öğeleri (SRS + hata defteri), "Kannst du das?" can‑do öz değerlendirmesi |
+| T | **Einheitstest** + Bitiş görevi | 25–30 dk | Ölçme | 4 beceri; geçme eşiği %70 (her bölüm ≥%50); kalırsa hatalı konulara özel tekrar seti açılır |
+
+Ünite başına ≈ 3–3,5 saat yeni içerik + ≈ 1,5–2 saat SRS/tekrar ⇒ **~5 saat/ünite**, 2 haftada bir ünite (günde ~30–45 dk).
+
+### 9.2 Ders içi mikro‑akış (her ders)
+
+1. **Aufwärmen (2–3 dk):** SRS vadesi gelen 10–20 kart.
+2. **Input:** Ses/metin/görsel (anlamaya odaklı).
+3. **Noticing:** "Bu cümlelerde fiil nerede?" tipi keşif sorusu.
+4. **Erklärung:** Kısa Türkçe açıklama + tablo + 3 örnek; `trNote` ("Türkçeden farkı").
+5. **Kontrollü pratik:** 8–15 madde, anında geri bildirim + açıklama.
+6. **Yarı serbest / serbest üretim:** Cümle kurma, kayıt, kısa yazı.
+7. **Exit-Check:** 3–5 soruluk mini test → sonuç ilerleme modeline.
+
+### 9.3 Alıştırma tipleri kataloğu (veri modelindeki `type` değerleri)
+
+| `type` | Açıklama | Beceri |
+|---|---|---|
+| `mc` | Çoktan seçmeli (metin/ses/görsel) | Tümü |
+| `tf` | Richtig/Falsch (Goethe tipi) | Lesen/Hören |
+| `cloze` | Boşluk doldurma (yazarak) | Gramer/kelime |
+| `cloze_choice` | Boşluk doldurma (seçenekli dropdown) | Gramer |
+| `artikel` | der/die/das(/Plural) seçimi, renk geri bildirimi | Kelime |
+| `match` | Eşleştirme (DE↔TR, soru↔cevap, resim↔kelime) | Kelime |
+| `order` | Kelime sıralama (cümle kurma — V2/Satzklammer için kritik) | Gramer |
+| `transform` | Dönüştürme (Präsens→Perfekt, Hauptsatz→weil‑Satz) | Gramer |
+| `conjugate` | Çekim tablosu doldurma | Gramer |
+| `dictation` | Dinle‑yaz (kelime/sayı/cümle) | Hören/Schreiben |
+| `listen_select` | Minimal çift / ses ayırt etme | Aussprache |
+| `speak_repeat` | Dinle‑tekrar et (kayıt, opsiyonel ASR) | Sprechen |
+| `roleplay` | Sıralı replikli diyalog; kullanıcı rolüne sesle/yazıyla cevap | Sprechen |
+| `write_free` | Serbest yazma + içerik noktası kontrol listesi + model cevap | Schreiben |
+| `form` | Form doldurma (Goethe A1 Schreiben T1) | Schreiben/Lesen |
+| `map_route` | Harita üzerinde yol | Hören |
+| `clock` | Saat ayarlama/okuma | Hören |
+
+---
+
+## 10. İlerleme kontrol noktaları ve sınav simülasyonu
+
+### 10.1 Kontrol noktaları
+
+| Kontrol noktası | Konum | Kapsam | Format | Geçme ölçütü | Kalırsa |
+|---|---|---|---|---|---|
+| Ünite testi | Her ünite sonu | Ünite | 4 beceri, ~25 madde + bitiş görevi | ≥%70 toplam, her beceri ≥%50 | Hatalı gramer/kelime ID'lerinden otomatik "Reparatur-Set" |
+| **KN1 — A1.1 Zwischentest** | Ünite 7 sonrası | Ünite 0–7 | Goethe A1 formatının kısaltılmışı (her bölüm ~yarım) | ≥%65 | Zayıf ünitelerin R+T dersleri tekrar açılır |
+| **KN2 — A1 Abschluss** | Ünite 14 | Ünite 0–14 | **Start Deutsch 1 tam simülasyon** | ≥60/100 (Goethe eşiği); sistem önerisi ≥70 | A2'ye geçiş "önerilmez" uyarısı (kilitlenmez) |
+| **KN3 — A2.1 Zwischentest** | Ünite 21 sonrası | Ünite 15–21 (+A1 spiral) | Goethe A2 formatının kısaltılmışı | ≥%65 | Aynı |
+| **KN4 — A2 Abschluss** | Ünite 28 | Tümü | **Goethe-Zertifikat A2 tam simülasyon** | ≥60/100; hedef ≥70 | Kişisel tekrar planı (4 hafta) |
+
+> **Not:** Konuşma ve serbest yazma bölümleri tarayıcıda tam otomatik puanlanamaz. Öneri: (a) kontrol listesi ile **öz değerlendirme** (içerik noktaları, kelime/gramer kontrolü), (b) model cevapla yan yana karşılaştırma, (c) opsiyonel Web Speech API ile anahtar kelime tespiti. Sistem bu bölümlerin puanını "öz değerlendirme" olarak ayrı işaretlemeli.
+
+### 10.2 Start Deutsch 1 (A1) — format ve simülasyon
+
+| Modül | Süre | Bölümler | Madde | Ham puan → ölçekli |
+|---|---|---|---|---|
+| **Hören** | ~20 dk | Teil 1: 6 kısa günlük diyalog, çoktan seçmeli (a/b/c), 2 kez dinlenir · Teil 2: 4 anons (istasyon, mağaza), Richtig/Falsch, 1 kez · Teil 3: 5 telesekreter mesajı, a/b/c, 2 kez | 15 | 15 → 25 |
+| **Lesen** | ~25 dk | Teil 1: 2 kısa metin (mesaj/e‑posta), 5 R/F · Teil 2: 5 durum, iki ilan/web sitesinden doğrusunu seç (a/b) · Teil 3: 5 tabela/duyuru, R/F | 15 | 15 → 25 |
+| **Schreiben** | ~20 dk | Teil 1: Bir kişinin bilgileriyle form doldurma (5 boşluk) · Teil 2: 3 içerik noktalı kısa mesaj/e‑posta (~30 kelime; davet, rica, bilgi) | 5 + 10 | 15 → 25 |
+| **Sprechen** | ~15 dk (grup) | Teil 1: Kendini tanıtma (Name, Alter, Land, Wohnort, Sprachen, Beruf, Hobby) + harf/sayı · Teil 2: Konu kartlarıyla soru sor‑cevap ver (ör. *Thema: Essen — Kartenwort: Frühstück*) · Teil 3: Resim kartlarıyla rica formüle et ve tepki ver | — | 15 → 25 (yaklaşık; Teil 1: 3, Teil 2: 6, Teil 3: 6) |
+| **Toplam** | ~65 dk + Sprechen | | | **100 puan; geçme ≥ 60** |
+
+**Sistemdeki simülasyon kuralları**
+- Zamanlayıcı ve "Sadece 1/2 kez dinle" kısıtı (ses oynatıcı sayaç kilidi).
+- Sprechen Teil 2/3: Sistem kart gösterir → kullanıcı soru/rica kaydeder → model örnekler ve kontrol listesi ile öz puanlama (0/0,5/1 her madde).
+- Schreiben Teil 2: 3 içerik noktası kontrolü (her biri 0/1,5/3 puan, iletişimsel tasarım 0/0,5/1) — Goethe değerlendirme ölçütlerine paralel kontrol listesi.
+- Sonuç ekranı: Modül puanları, geçti/kaldı, beceri zayıflık haritası, ilgili ünite linkleri.
+
+### 10.3 Goethe‑Zertifikat A2 — format ve simülasyon
+
+| Modül | Süre | Bölümler | Madde | Puan |
+|---|---|---|---|---|
+| **Hören** | ~30 dk | Teil 1: 5 kısa radyo/telefon metni (a/b/c), 2 kez · Teil 2: Bir diyalog, 5 kişiyi/günü bilgiyle eşleştirme, 1 kez · Teil 3: 5 kısa günlük diyalog (resim/metin seçimi), 2 kez · Teil 4: Radyo röportajı, 5 Ja/Nein, 2 kez | 20 | 25 |
+| **Lesen** | ~30 dk | Teil 1: Gazete haberi/blog, 5 a/b/c · Teil 2: Mağaza rehberi/program, 5 a/b/c · Teil 3: E‑posta/mektup, 5 a/b/c · Teil 4: 6 (7) kişi ↔ ilanlar eşleştirme (bir kişi için ilan yok "0") | 20 | 25 |
+| **Schreiben** | ~30 dk | Teil 1: SMS/kısa mesaj (~20–30 kelime, 3 içerik noktası) · Teil 2: Yarı resmi e‑posta/mesaj (~30–40 kelime, 3 içerik noktası; davet cevabı, rica, iptal) | 2 | 25 |
+| **Sprechen** | ~15 dk (çift) | Teil 1: Kartlarla birbirine kişisel sorular sorma (4 kart) · Teil 2: Bir konu kartına göre kendi hayatından anlatma (ör. *Wohnen, Freizeit, Essen*) + partnerin sorusuna cevap · Teil 3: Birlikte bir şey planlama (iki farklı randevu takvimi ile ortak zaman bulma) | — | 25 |
+| **Toplam** | | | | **100; geçme ≥ 60** (yazılı modüller 75 + sözlü 25) |
+
+**Sistemdeki simülasyon:** A2 Sprechen "çift" format gerektirdiğinden, partner replikleri önceden kaydedilmiş ses dosyalarıdır; Teil 3'te kullanıcıya bir takvim, "partnere" farklı takvim verilir; partner öneri yapar ("Hast du am Samstag um 10 Zeit?"), kullanıcı kendi takvimine bakıp sesle cevaplar; dal yapısı (`branches`) ile 3–4 adımlı senaryo.
+
+### 10.4 Sınav banka hacmi önerisi
+
+| Seviye | Tam simülasyon seti | Kısaltılmış (KN) seti | Not |
+|---|---|---|---|
+| A1 | 3 tam set (Modelltest 1–3) | 2 set | Goethe'nin kendi ücretsiz Übungssatz'ı dışarıdan link olarak önerilebilir (telif nedeniyle içerik kopyalanmaz). |
+| A2 | 3 tam set | 2 set | Aynı |
+
+---
+
+## 11. JSON veri modeli
+
+### 11.1 Dosya organizasyonu (öneri)
+
+```
+/data
+  curriculum.json          # seviye → ünite listesi, kontrol noktaları
+  grammar.json             # G01–G67 (id, title, prereq, trNote, difficulty, mode, tables)
+  chunks.json              # §6 kalıplar
+  sounds.json              # P01–P24 telaffuz birimleri
+  units/
+    u00.json … u28.json    # her ünite tek dosya (lazy load)
+  exams/
+    a1-modell-1.json …     # sınav setleri
+/audio
+  u04/ d1.mp3, v_kaffee.mp3 …
+```
+
+### 11.2 Tam ünite örneği — Ünite 4 "Essen & Trinken" (kısaltılmamış yapı, temsilî içerik)
+
+> Kelime listesi örnek amacıyla 12 madde gösterir; gerçek dosyada ~55 aktif + ~15 pasif madde bulunur. Diğer alanlar tam yapıdadır.
+
+```json
+{
+  "id": "u04",
+  "level": "A1.1",
+  "order": 4,
+  "title": { "de": "Essen & Trinken", "tr": "Yiyecek ve içecek" },
+  "estimatedMinutes": 300,
+  "prerequisites": { "units": ["u03"], "grammar": ["G09", "G10"] },
+  "goals": [
+    { "id": "u04.g1", "skill": "sprechen", "de": "Ich kann im Café etwas bestellen und bezahlen.", "tr": "Kafede sipariş verip ödeme yapabilirim." },
+    { "id": "u04.g2", "skill": "sprechen", "de": "Ich kann sagen, was ich gern / nicht gern esse und trinke.", "tr": "Neyi sevip sevmediğimi söyleyebilirim." },
+    { "id": "u04.g3", "skill": "lesen",    "de": "Ich kann eine einfache Speisekarte verstehen.", "tr": "Basit bir menüyü anlayabilirim." },
+    { "id": "u04.g4", "skill": "hoeren",   "de": "Ich kann Preise und Bestellungen im Café verstehen.", "tr": "Kafedeki fiyat ve siparişleri anlayabilirim." },
+    { "id": "u04.g5", "skill": "schreiben","de": "Ich kann eine Einkaufsliste / mein Frühstück beschreiben.", "tr": "Kahvaltımı yazılı tarif edebilirim." }
+  ],
+  "grammar": [
+    {
+      "ref": "G11",
+      "status": "introduced",
+      "title": { "de": "Unbestimmter Artikel: ein / eine", "tr": "Belirsiz artikel: ein / eine" },
+      "summary_tr": "Sayılabilen tekil isimlerden önce 'bir' anlamında ein (der/das) veya eine (die) kullanılır.",
+      "table": {
+        "headers": ["", "maskulin", "neutral", "feminin", "Plural"],
+        "rows": [["bestimmt", "der Kaffee", "das Brot", "die Milch", "die Äpfel"],
+                 ["unbestimmt", "ein Kaffee", "ein Brot", "eine Banane", "– Äpfel"]]
+      },
+      "examples": [
+        { "de": "Das ist ein Apfel.", "tr": "Bu bir elma." },
+        { "de": "Das ist eine Banane.", "tr": "Bu bir muz." }
+      ],
+      "trNote": "Türkçede 'bir' çoğu zaman düşer ('Elma yiyorum'). Almancada sayılabilen tekil isimde artikel zorunludur."
+    },
+    {
+      "ref": "G14",
+      "status": "introduced",
+      "title": { "de": "Ich möchte … / Ich hätte gern …", "tr": "İstek bildirme" },
+      "summary_tr": "Kibar istek için 'möchte' veya 'hätte gern' kullanılır. İkinci bir fiil varsa cümlenin sonuna gider.",
+      "table": {
+        "headers": ["ich", "du", "er/sie/es", "wir", "ihr", "sie/Sie"],
+        "rows": [["möchte", "möchtest", "möchte", "möchten", "möchtet", "möchten"]]
+      },
+      "examples": [
+        { "de": "Ich möchte einen Tee.", "tr": "Bir çay istiyorum." },
+        { "de": "Ich möchte einen Tee trinken.", "tr": "Bir çay içmek istiyorum." }
+      ],
+      "trNote": "İkinci fiil sonda — Türkçe sıralamaya benzer: '... içmek istiyorum'."
+    },
+    {
+      "ref": "G15",
+      "status": "introduced",
+      "title": { "de": "Akkusativ (Einführung): einen / den", "tr": "Akkusativ'e giriş" },
+      "summary_tr": "Fiilin doğrudan nesnesi Akkusativ'dedir. Sadece maskulin değişir: der → den, ein → einen.",
+      "table": {
+        "headers": ["", "maskulin", "neutral", "feminin", "Plural"],
+        "rows": [["Nominativ", "der / ein Kaffee", "das / ein Brot", "die / eine Cola", "die / – Eier"],
+                 ["Akkusativ", "den / einen Kaffee", "das / ein Brot", "die / eine Cola", "die / – Eier"]]
+      },
+      "examples": [
+        { "de": "Ich nehme einen Kaffee.", "tr": "Bir kahve alıyorum." },
+        { "de": "Ich esse den Kuchen.", "tr": "Pastayı yiyorum." }
+      ],
+      "trNote": "Türkçedeki belirtme eki (-ı/-i) ile benzer: 'Pastayı yiyorum' = den Kuchen. Ama Almancada belirsiz nesne de çekimlidir: 'bir kahve' = einen Kaffee."
+    }
+  ],
+  "vocab": [
+    { "id": "v.kaffee",   "de": "Kaffee",   "pos": "noun", "artikel": "der", "plural": "-s",  "pluralForm": "Kaffees",   "tr": "kahve",     "example": { "de": "Ich hätte gern einen Kaffee.", "tr": "Bir kahve alabilir miyim?" }, "audio": "audio/u04/v_kaffee.mp3", "freq": 1, "goethe": "A1", "active": true, "note_tr": "Almanya'da vurgu başta: KAffee; Avusturya'da sonda." },
+    { "id": "v.tee",      "de": "Tee",      "pos": "noun", "artikel": "der", "plural": "-s",  "pluralForm": "Tees",      "tr": "çay",       "example": { "de": "Möchtest du einen Tee?", "tr": "Çay ister misin?" }, "audio": "audio/u04/v_tee.mp3", "freq": 1, "goethe": "A1", "active": true },
+    { "id": "v.wasser",   "de": "Wasser",   "pos": "noun", "artikel": "das", "plural": "-",   "pluralForm": "Wasser",    "tr": "su",        "example": { "de": "Ein Wasser, bitte.", "tr": "Bir su, lütfen." }, "audio": "audio/u04/v_wasser.mp3", "freq": 1, "goethe": "A1", "active": true },
+    { "id": "v.milch",    "de": "Milch",    "pos": "noun", "artikel": "die", "plural": null,  "pluralForm": null,        "tr": "süt",       "example": { "de": "Mit Milch und Zucker?", "tr": "Sütlü ve şekerli mi?" }, "audio": "audio/u04/v_milch.mp3", "freq": 1, "goethe": "A1", "active": true, "uncountable": true },
+    { "id": "v.broetchen","de": "Brötchen", "pos": "noun", "artikel": "das", "plural": "-",   "pluralForm": "Brötchen",  "tr": "küçük ekmek, sandviç ekmeği", "example": { "de": "Ich esse zwei Brötchen.", "tr": "İki küçük ekmek yiyorum." }, "audio": "audio/u04/v_broetchen.mp3", "freq": 2, "goethe": "A1", "active": true, "variants": { "AT": "die Semmel", "CH": "das Brötli" }, "rule": "-chen → das" },
+    { "id": "v.apfel",    "de": "Apfel",    "pos": "noun", "artikel": "der", "plural": "¨",   "pluralForm": "Äpfel",     "tr": "elma",      "example": { "de": "Der Apfel ist süß.", "tr": "Elma tatlı." }, "audio": "audio/u04/v_apfel.mp3", "freq": 2, "goethe": "A1", "active": true },
+    { "id": "v.ei",       "de": "Ei",       "pos": "noun", "artikel": "das", "plural": "-er", "pluralForm": "Eier",      "tr": "yumurta",   "example": { "de": "Zum Frühstück esse ich ein Ei.", "tr": "Kahvaltıda bir yumurta yerim." }, "audio": "audio/u04/v_ei.mp3", "freq": 2, "goethe": "A1", "active": true },
+    { "id": "v.kuchen",   "de": "Kuchen",   "pos": "noun", "artikel": "der", "plural": "-",   "pluralForm": "Kuchen",    "tr": "pasta, kek","example": { "de": "Der Kuchen ist lecker.", "tr": "Pasta lezzetli." }, "audio": "audio/u04/v_kuchen.mp3", "freq": 2, "goethe": "A1", "active": true },
+    { "id": "v.rechnung", "de": "Rechnung", "pos": "noun", "artikel": "die", "plural": "-en", "pluralForm": "Rechnungen","tr": "hesap, fatura", "example": { "de": "Die Rechnung, bitte!", "tr": "Hesap lütfen!" }, "audio": "audio/u04/v_rechnung.mp3", "freq": 2, "goethe": "A1", "active": true, "rule": "-ung → die" },
+    { "id": "v.essen",    "de": "essen",    "pos": "verb", "tr": "yemek (yemek yemek)", "forms": { "er": "isst", "partizip": "gegessen", "aux": "haben" }, "separable": false, "irregular": true, "example": { "de": "Was isst du gern?", "tr": "Ne yemeyi seversin?" }, "audio": "audio/u04/v_essen.mp3", "freq": 1, "goethe": "A1", "active": true, "note_tr": "du isst / er isst (e→i). Kök değişimi Ünite 7'de ayrıntılı." },
+    { "id": "v.lecker",   "de": "lecker",   "pos": "adj",  "tr": "lezzetli", "example": { "de": "Das Brot ist lecker.", "tr": "Ekmek lezzetli." }, "audio": "audio/u04/v_lecker.mp3", "freq": 2, "goethe": "A1", "active": true },
+    { "id": "v.speisekarte","de": "Speisekarte","pos": "noun","artikel": "die","plural": "-n","pluralForm": "Speisekarten","tr": "menü, yemek listesi", "example": { "de": "Die Speisekarte, bitte.", "tr": "Menü lütfen." }, "audio": "audio/u04/v_speisekarte.mp3", "freq": 3, "goethe": "A1", "active": false }
+  ],
+  "chunks": ["c17", "c18", "c19", "c20", "c21", "c22", "c23", "c48"],
+  "dialogs": [
+    {
+      "id": "u04.d1",
+      "title": { "de": "Im Café", "tr": "Kafede" },
+      "setting_tr": "Elif bir kafede sipariş veriyor.",
+      "audio": { "normal": "audio/u04/d1.mp3", "slow": "audio/u04/d1_slow.mp3" },
+      "speakers": { "K": "Kellner", "E": "Elif" },
+      "lines": [
+        { "s": "K", "de": "Guten Tag! Was möchten Sie?",                 "tr": "İyi günler! Ne istersiniz?", "t": [0.0, 2.1] },
+        { "s": "E", "de": "Ich hätte gern einen Kaffee, bitte.",          "tr": "Bir kahve alabilir miyim, lütfen.", "t": [2.3, 4.6], "highlight": ["hätte gern", "einen Kaffee"] },
+        { "s": "K", "de": "Mit Milch und Zucker?",                         "tr": "Sütlü ve şekerli mi?", "t": [4.8, 6.2] },
+        { "s": "E", "de": "Nur mit Milch. Und ein Stück Kuchen, bitte.",   "tr": "Sadece sütlü. Bir de bir dilim pasta, lütfen.", "t": [6.4, 9.3], "highlight": ["ein Stück Kuchen"] },
+        { "s": "K", "de": "Gern. … So, bitte schön.",                       "tr": "Memnuniyetle. … Buyurun.", "t": [9.5, 11.6] },
+        { "s": "E", "de": "Danke. … Zahlen, bitte!",                        "tr": "Teşekkürler. … Hesap lütfen!", "t": [11.8, 13.9] },
+        { "s": "K", "de": "Das macht 6,80 Euro.",                           "tr": "6,80 Euro ediyor.", "t": [14.1, 15.9] },
+        { "s": "E", "de": "Sieben Euro. Stimmt so.",                        "tr": "Yedi Euro. Üstü kalsın.", "t": [16.1, 18.0] },
+        { "s": "K", "de": "Vielen Dank! Schönen Tag noch!",                 "tr": "Çok teşekkürler! İyi günler!", "t": [18.2, 20.0] }
+      ],
+      "comprehension": [
+        { "type": "mc", "q": { "de": "Was trinkt Elif?", "tr": "Elif ne içiyor?" }, "options": ["Tee", "Kaffee mit Milch", "Kaffee mit Zucker"], "answer": 1 },
+        { "type": "tf", "q": { "de": "Elif bezahlt 6,80 Euro.", "tr": "Elif 6,80 Euro ödüyor." }, "answer": false, "explain_tr": "Elif 7 Euro verir ve 'Stimmt so' der (üstü kalsın)." }
+      ]
+    }
+  ],
+  "lessons": [
+    { "id": "u04.l1", "type": "words",      "title": { "de": "Wörter: Frühstück & Café", "tr": "Kelimeler" }, "vocab": ["v.kaffee","v.tee","v.wasser","v.milch","v.broetchen","v.apfel","v.ei","v.kuchen"], "exercises": ["u04.e1","u04.e2"] },
+    { "id": "u04.l2", "type": "dialog",     "title": { "de": "Im Café", "tr": "Kafede" }, "dialog": "u04.d1", "exercises": ["u04.e3"] },
+    { "id": "u04.l3", "type": "grammar",    "grammar": ["G11","G14"], "exercises": ["u04.e4","u04.e5"] },
+    { "id": "u04.l4", "type": "grammar",    "grammar": ["G15"], "vocab": ["v.rechnung","v.essen","v.lecker","v.speisekarte"], "exercises": ["u04.e6","u04.e7"] },
+    { "id": "u04.l5", "type": "read_write", "exercises": ["u04.e8","u04.e9"] },
+    { "id": "u04.l6", "type": "speak",      "sounds": ["P05","P06"], "exercises": ["u04.e10","u04.e11"] },
+    { "id": "u04.r",  "type": "review",     "source": "srs+errors", "scope": ["u02","u03","u04"] },
+    { "id": "u04.t",  "type": "test",       "exercises": ["u04.t1","u04.t2","u04.t3","u04.t4"], "passScore": 0.7, "minPerSkill": 0.5 }
+  ],
+  "exercises": [
+    { "id": "u04.e1", "type": "artikel", "items": ["v.kaffee","v.tee","v.wasser","v.milch","v.broetchen","v.apfel","v.ei","v.kuchen"], "options": ["der","die","das"] },
+    { "id": "u04.e2", "type": "match", "pairs": [["der Apfel","elma"],["das Ei","yumurta"],["die Milch","süt"],["der Kuchen","pasta"]] },
+    { "id": "u04.e3", "type": "dictation", "audio": "audio/u04/e3_preise.mp3", "items": [{ "answer": "6,80" }, { "answer": "2,50" }, { "answer": "12,90" }], "instruction_tr": "Fiyatları dinleyin ve yazın." },
+    { "id": "u04.e4", "type": "cloze_choice", "grammar": "G11",
+      "items": [
+        { "text": "Das ist ___ Apfel.",   "options": ["ein","eine"], "answer": "ein" },
+        { "text": "Das ist ___ Banane.",  "options": ["ein","eine"], "answer": "eine" },
+        { "text": "Das ist ___ Brötchen.","options": ["ein","eine"], "answer": "ein", "hint_tr": "-chen ile biten isimler hep 'das'." }
+      ] },
+    { "id": "u04.e5", "type": "order", "grammar": "G14",
+      "items": [
+        { "tokens": ["Ich","möchte","einen","Tee","trinken"], "answer": "Ich möchte einen Tee trinken.", "explain_tr": "İkinci fiil (trinken) cümlenin sonunda." }
+      ] },
+    { "id": "u04.e6", "type": "cloze", "grammar": "G15",
+      "items": [
+        { "text": "Ich nehme ___ Kaffee. (ein)", "answer": "einen", "explain_tr": "der Kaffee → maskulin → Akkusativ: einen." },
+        { "text": "Ich esse ___ Kuchen. (der)",  "answer": "den" },
+        { "text": "Ich trinke ___ Cola. (eine)", "answer": "eine", "explain_tr": "Feminin Akkusativ'de değişmez." }
+      ] },
+    { "id": "u04.e7", "type": "transform", "grammar": "G15", "instruction_tr": "Cümleyi 'Ich hätte gern ...' ile yeniden yazın.",
+      "items": [ { "from": "Das ist ein Salat.", "answer": "Ich hätte gern einen Salat." } ] },
+    { "id": "u04.e8", "type": "tf", "skill": "lesen", "text": { "de": "Café Sonne – Frühstück von 8 bis 11 Uhr. Kaffee 2,80 €, Tee 2,20 €, Brötchen mit Käse 3,50 €. Montag Ruhetag." },
+      "items": [ { "q": "Am Montag ist das Café zu.", "answer": true }, { "q": "Ein Tee kostet 2,80 €.", "answer": false } ] },
+    { "id": "u04.e9", "type": "write_free", "skill": "schreiben", "prompt": { "de": "Was essen und trinken Sie zum Frühstück? Schreiben Sie 4–5 Sätze.", "tr": "Kahvaltıda ne yiyip içiyorsunuz? 4–5 cümle yazın." },
+      "checklist": [ { "tr": "En az 3 yiyecek/içecek adı (artikelli)" }, { "tr": "'gern' veya 'nicht gern' kullanımı" }, { "tr": "En az bir Akkusativ (einen/den)" } ],
+      "keywords": ["Kaffee","Tee","Brötchen","Ei","gern"],
+      "model": { "de": "Zum Frühstück trinke ich einen Tee. Ich esse gern Brot mit Käse und ein Ei. Ich trinke nicht gern Kaffee.", "tr": "Kahvaltıda bir çay içerim. ..." } },
+    { "id": "u04.e10", "type": "listen_select", "sound": "P05/P06", "items": [ { "audio": "audio/u04/p_milch.mp3", "options": ["[ç] Ich-Laut","[x] Ach-Laut"], "answer": 0 }, { "audio": "audio/u04/p_kuchen.mp3", "options": ["[ç] Ich-Laut","[x] Ach-Laut"], "answer": 1 } ] },
+    { "id": "u04.e11", "type": "roleplay", "skill": "sprechen", "role": "E", "dialog": "u04.d1", "mode": "user_speaks_role",
+      "prompts_tr": ["Garsona bir çay ve bir dilim pasta sipariş edin.", "Hesabı isteyin.", "Üstünün kalmasını söyleyin."],
+      "expected": [["Ich hätte gern einen Tee", "Ich möchte einen Tee"], ["Zahlen, bitte", "Die Rechnung, bitte"], ["Stimmt so"]],
+      "asr": { "lang": "de-DE", "matchMode": "keywords" } }
+  ],
+  "finalTask": {
+    "id": "u04.final",
+    "title": { "de": "Bestellen im Café", "tr": "Kafede sipariş" },
+    "description_tr": "Garsonun sorularını dinleyin ve sesli cevap verin: 2 ürün sipariş edin, bir soruya cevap verin, hesabı ödeyin.",
+    "skills": ["hoeren","sprechen"],
+    "rubric": [ { "tr": "Kibar sipariş kalıbı (hätte gern/möchte)", "points": 2 }, { "tr": "Doğru Akkusativ (einen …)", "points": 2 }, { "tr": "Hesap isteme + ödeme kalıbı", "points": 2 } ],
+    "selfAssessment": true
+  },
+  "landeskunde": { "tr": "Almanya'da 'Kaffee und Kuchen' öğleden sonra geleneğidir. Bahşiş genelde %5–10; ödeme sırasında toplamı yuvarlayıp söylenir: 'Sieben Euro, stimmt so.'" },
+  "canDoCheck": ["u04.g1", "u04.g2", "u04.g3", "u04.g4", "u04.g5"]
+}
+```
+
+### 11.3 grammar.json kaydı örneği
+
+```json
+{
+  "id": "G15",
+  "title": { "de": "Akkusativ", "tr": "Akkusativ (-i hâli)" },
+  "level": "A1.1",
+  "units": { "introduced": "u04", "expanded": ["u05", "u12", "u13"], "reviewed": ["u14", "u28"] },
+  "prerequisites": ["G11"],
+  "difficultyTR": 4,
+  "mode": "P",
+  "trNote": "Türkçe belirtme hâli (-ı/-i) ile köprü; ama sadece maskulin artikel değişir ve belirsiz nesne de çekimlidir.",
+  "commonErrors": [
+    { "wrong": "Ich habe ein Bruder.", "right": "Ich habe einen Bruder.", "why_tr": "haben + Akkusativ; der Bruder → einen." }
+  ]
+}
+```
+
+### 11.4 Doğrulama kuralları (içerik lint scripti için)
+
+1. Her `vocab` ismi: `artikel` ∈ {der, die, das} ve `plural` alanı tanımlı (null = çoğulsuz).
+2. `example.de` içindeki her kelime: bu ünite veya önceki ünitelerin `vocab`/`chunks` listesinde ya da stopword (*ich, und, ist…*) listesinde olmalı (bilinmeyen kelime ≤1 tolerans).
+3. Alıştırmada referans verilen `grammar` ID'si o ünitede veya öncesinde `introduced` olmalı.
+4. Her ünitede 4 becerinin her biri için ≥1 alıştırma; `finalTask` zorunlu.
+5. Ses dosyası yolları mevcut olmalı (build sırasında).
+6. Toplam kelime: A1 ünitelerinde aktif ≥ 680, A2 sonunda ≥ 1300; Goethe listesi kapsaması ≥ %95 (§5.4).
+
+---
+
+## 12. Türkçe konuşanlara özgü zorluklar
+
+| Alan | Zorluk | Avantaj / köprü | Sistem önlemi |
+|---|---|---|---|
+| Artikel / cinsiyet | Türkçede yok → en kalıcı hata kaynağı | — | Renk kodu, artikel kuralları kartı, her isim artikel ile SRS, "Artikel-Training" günlük mini oyun |
+| Kelime sırası V2 / Inversion | SOV alışkanlığı | — | `order` alıştırmaları her ünitede; renkli pozisyon şeması (Pos.1 / Verb / … / Ende) |
+| Satzklammer (Modal, trennbar, Perfekt) | Fiilin parçalanması | Türkçe "fiil sonda" sezgisi | Çerçeve görselleştirmesi |
+| Nebensatz (weil, dass, wenn, ob) | Virgül ve fiil‑fiil sırası | **Fiil sonda — Türkçeye benzer** | "Türkçe gibi düşün" ipucu |
+| Hâller (Akk/Dat) | Edat → hâl ezberi | Türkçe ‑i / ‑e / ‑de / ‑den ile kısmi eşleşme | Karşılaştırma tablosu + istisnalar (fragen + Akk) |
+| Çoğul | Çok sayıda kalıp; sayıdan sonra çoğul | — | Plural her isim kartında; "zwei Bücher" uyarısı |
+| Zamir er/sie/es (eşya) | "o" tek | — | Eşyaları zamirle gösterme alıştırmaları |
+| Sie / du | — | sen/siz ayrımı aynı mantık | Erken tanıtım |
+| Umlaut ö/ü | — | Türkçede var | Hızlı geçiş |
+| Ünlü uzunluğu, ei/ie, z, s, v/w | Fonolojik farklar | — | Minimal çift, Ünite 0 + Aussprache-Ecke |
+| Ünsüz kümeleri (Str‑, Schr‑, Pf‑) | Ünlü ekleme (epentez) | — | Hece hece yavaş → hızlı tekrar |
+| Auslautverhärtung | — | kitap/kitabı ile aynı | Köprü olarak anlat |
+| Sayılar (21–99), saat (halb) | Ters okuma, "halb drei" | — | Yoğun dikte, saat oyunu |
+| Ayrılabilir fiil, Perfekt haben/sein | Analogu yok | — | Fiil kartında `separable`, `aux` alanı |
+| Konjunktiv II nezaket | — | ‑ebilir miydiniz / ‑sa ile köprü | Önce chunk |
+| "seit + Präsens" | Türkçe ‑dir ile aynı zaman mantığı | Avantaj | Vurgula |
+
+---
+
+## 13. Açık sorular
+
+1. **Ses üretimi:** Tüm ses dosyaları (≈ 1350 kelime + ~1500 örnek cümle + ~60 diyalog + sınav setleri) için TTS mi (ör. önceden üretilmiş neural TTS), yoksa tarayıcıda Web Speech API mi? Sınav simülasyonu için önceden üretilmiş dosya önerilir (tutarlılık, hız kontrolü). → *Teknik mimari kolu*.
+2. **Konuşma değerlendirmesi:** Web Speech API sadece Chromium'da güvenilir; Firefox/Safari'de öz değerlendirmeye düşülmeli. → *Teknik/pedagoji kolu*.
+3. **Telif:** Goethe Modelltest içerikleri kopyalanmamalı; sistem kendi özgün sınav setlerini Goethe *formatında* üretir, resmi Übungssätze'ye link verilir.
+4. **D‑A‑CH varyantları:** Pasif tutuldu; kullanıcı Avusturya/İsviçre'ye gidecekse ayar ile aktifleştirilebilir.
+5. **Integrationskurs/DTZ uyumu:** Kullanıcı Almanya'da yaşıyorsa, A2.2 ünitelerine (22–23) DTZ (Deutsch-Test für Zuwanderer) formatı opsiyonel olarak eklenebilir.
+6. **SRS algoritması ve ilerleme modeli** (FSRS/SM‑2, ünite kilitleme kuralları) → *Öğrenme bilimi / SRS kolu*.
