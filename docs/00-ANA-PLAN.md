@@ -70,7 +70,7 @@ Buna göre:
 | İçerik formatı | `content/a1/unit-01.js` → `DE.content.registerUnit({...})`. Veri yapısı 02/04/05'teki JSON şemalarının aynısı, sadece JS ile sarılı |
 | İçerik yükleme | Tüm ünite dosyaları `index.html`'de listelenir (ya da `content/index.js` manifesti); `tools/` altındaki Node scripti listeyi ve şemayı doğrular |
 | Tarayıcı | **Chrome veya Edge önerilir** (STT, `file://` davranışı en tutarlı). Firefox'ta temel işlevler çalışır, STT yok |
-| Kalıcılık | IndexedDB (asıl veri) + localStorage (ayarlar). Chrome'da tüm `file://` sayfaları tek origin paylaşır → klasör taşınsa da ilerleme kaybolmaz |
+| Kalıcılık | MVP'de tek JSON durum nesnesi localStorage'da (`almanca.state.v1`; günlük bir önceki sürüm ayrı anahtarda). Veri küçük (kartlar + son 20.000 tekrar kaydı) olduğu için IndexedDB'ye gerek görülmedi; büyürse geçilir. Chrome'da tüm `file://` sayfaları tek origin paylaşır → klasör taşınsa da ilerleme kaybolmaz |
 | Yedek | **MVP'de zorunlu**: "İlerlemeyi indir" (`ilerleme-YYYY-MM-DD.json`) + "Yükle"; 7 günde bir hatırlatma. v1'de Chrome/Edge için File System Access API ile repo klasöründeki bir dosyaya otomatik kaydetme (tarayıcı verisi silinse de ilerleme dosyada kalır) |
 | Telefon | Kapsam dışı. Aynı dosyalar değişiklik gerekmeden GitHub Pages'te de çalışır; ileride istenirse açılır (ilerleme bu durumda yedek dosyasıyla taşınır) |
 | SRS | FSRS‑5, hedef hatırlama 0.90 (ts-fsrs `js/vendor/`'a UMD olarak ya da ~150 satır kendi implementasyon) |
@@ -195,24 +195,27 @@ tests/                  node --test
 
 ## 7. Yol haritası
 
-### Faz 0 — İskelet (1–2 gün)
-- [ ] `index.html` + klasik script iskeleti + hash router, `file://`'de açıldığını doğrula
-- [ ] IndexedDB şema v1 + JSON yedek indir/yükle
-- [ ] İçerik şeması (JS sarmalı) + `tools/validate-content.mjs`
+### Faz 0 — İskelet (1–2 gün) ✅
+- [x] `index.html` + klasik script iskeleti + hash router, `file://`'de açıldığını doğrula
+- [x] Kalıcı durum (localStorage) + JSON yedek indir/yükle
+- [x] İçerik şeması (JS sarmalı) + `tools/validate-content.mjs`
 
-### Faz 1 — MVP (1–2 hafta): uçtan uca döngü
-- [ ] Ünite 0 + Ünite 1–3 içeriği (sesli, TR + EN anlamlı)
-- [ ] 5 alıştırma tipi: flashcard, mcq, type-answer, article, word-order
-- [ ] Cevap kontrol motoru (normalize/compare/basit teşhis)
-- [ ] FSRS + 3 kart yönü (DE→TR, TR→DE, artikel) + kardeş gömme + günlük kuyruk
-- [ ] Ders oynatıcı (yanlış soru 3 adım sonra tekrar, kaldığı yerden devam)
-- [ ] "Bugün" ekranı: süre seçimi → tekrar → yeni ders
-- [ ] "Yapay zekâya sor" butonu (kopyala + ChatGPT/Claude/Gemini linkleri)
-- [ ] Temel testler
+### Faz 1 — MVP (1–2 hafta): uçtan uca döngü ✅
+
+Uygulandı. Ses şimdilik tarayıcı TTS ile (Piper MP3 üretimi Faz 2'ye kaldı). Plandan fazlası: 9 alıştırma tipi (match, cloze, listen, speak, write dahil), ünite testi, Hata Defteri, kelime/gramer ekranları.
+- [x] Ünite 0 + Ünite 1–3 içeriği (TR + EN anlamlı; ses tarayıcı TTS)
+- [x] 5 alıştırma tipi: flashcard, mcq, type-answer, article, word-order
+- [x] Cevap kontrol motoru (normalize/compare/basit teşhis)
+- [x] FSRS + 3 kart yönü (DE→TR, TR→DE, artikel) + kardeş gömme + günlük kuyruk
+- [x] Ders oynatıcı (yanlış soru 3 adım sonra tekrar, kaldığı yerden devam)
+- [x] "Bugün" ekranı: süre seçimi → tekrar → yeni ders
+- [x] "Yapay zekâya sor" butonu (kopyala + ChatGPT/Claude/Gemini linkleri)
+- [x] Temel testler
 
 **MVP kabul kriteri:** `index.html`'e çift tıkla → bir ders bitir → kartlar oluşsun → ertesi gün tekrar gelsin → internet kapalıyken de çalışsın → yedekten geri yüklenebilsin.
 
 ### Faz 2 — v1: A1'in tamamı
+- [ ] Piper (`de_DE-thorsten-high`, CC0) ile önceden üretilmiş MP3 sesler (`DE.audio.files` kancası hazır)
 - [ ] Kalan alıştırma tipleri (cloze, conj_table, transform, dictation, listen_number, dialog/rol, shadowing, short_write, form)
 - [ ] Tam teşhis + hata etiketleri + Hata Defteri + zayıf nokta tatbikatı
 - [ ] Mastery gating, ünite testi, gerçek hayat görevleri (Anmeldung, Arzttermin…)
