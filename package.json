@@ -3,7 +3,8 @@
   "private": true,
   "description": "Yerel çalışan Almanca öğrenme uygulaması (A1–A2). Çalıştırmak için index.html'i aç; bu dosya sadece geliştirme komutları içindir.",
   "scripts": {
-    "test": "node --test tests/*.test.mjs",
-    "validate": "node tools/validate-content.mjs --stats"
+    "test": "node --test tests/*.test.mjs && node tools/build-single.mjs --check",
+    "validate": "node tools/validate-content.mjs --stats",
+    "build": "node tools/build-single.mjs"
   }
 }

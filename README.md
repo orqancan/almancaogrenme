@@ -8,6 +8,14 @@ Sıfırdan Almanca öğrenmek için kişisel, tarayıcı tabanlı bir öğrenme 
 2. `index.html` dosyasına çift tıkla. **Chrome veya Edge** önerilir (Almanca sesler ve konuşma tanıma en iyi orada çalışır).
 3. Her gün **Bugün** ekranında ne kadar vaktin olduğunu seç ve **Devam**'a bas. Sistem sırayla tekrarları, ünite testini ve yeni dersi getirir.
 
+### WhatsApp / e-posta ile göndermek için
+
+`dist/almanca-ogrenme.html` tek başına çalışan dosyadır: tüm kod, içerik ve tasarım içine gömülüdür. Bu dosyayı WhatsApp'tan (belge olarak) veya e-postayla gönderebilirsin. Alan kişi dosyayı **bilgisayarına indirip** Chrome veya Edge ile açar.
+
+- Telefonda WhatsApp'ın kendi önizlemesi JavaScript çalıştırmadığı için uygulama orada açılmaz. Android'de dosyayı indirip Chrome ile açmak çoğu zaman çalışır ama garanti değildir (ilerleme kaydı tutmayabilir). Uygulama asıl olarak bilgisayar için tasarlandı.
+- İlerleme dosyanın bulunduğu yere değil tarayıcıya kaydedilir: dosyayı başka klasöre taşımak ilerlemeyi silmez (Chrome), ama her kişinin ilerlemesi kendi tarayıcısındadır.
+- Kodu değiştirdikten sonra tek dosyayı yenilemek için: `npm run build`.
+
 **Önemli — yedek:** İlerlemen tarayıcının deposunda durur. Tarayıcı verilerini temizlersen ya da başka bir tarayıcıda açarsan görünmez. **Ayarlar › Yedeği indir** ile haftada bir `almanca-ilerleme-….json` dosyası indir; gerekince **Yedekten yükle** ile geri al. Uygulama 7 günde bir hatırlatır.
 
 ## İçinde neler var
@@ -27,6 +35,7 @@ Uygulamayı çalıştırmak için hiçbir şey gerekmez. Aşağıdakiler yalnız
 ```
 npm test            # birim testleri (cevap kontrolü, FSRS, planlayıcı, içerik)
 npm run validate    # içerik şeması ve üniteler arası tutarlılık
+npm run build       # dist/almanca-ogrenme.html tek dosya sürümünü üret
 ```
 
 - Mimari ve kararlar: [docs/00-ANA-PLAN.md](docs/00-ANA-PLAN.md)
